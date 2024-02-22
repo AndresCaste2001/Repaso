@@ -1,0 +1,19 @@
+dict.items(): Retorna una vista de tuplas que contiene los pares (clave, valor) del diccionario.
+
+dict.keys(): Retorna una vista de las claves del diccionario.
+
+dict.values(): Retorna una vista de los valores del diccionario.
+
+dict.get(key, default=None): Retorna el valor asociado con la clave dada. Si la clave no está en el diccionario, retorna el valor predeterminado especificado (por defecto, None).
+
+dict.pop(key, default=None): Remueve y retorna el valor asociado con la clave dada. Si la clave no está en el diccionario, retorna el valor predeterminado especificado (si se proporciona) o lanza un error KeyError.
+
+dict.popitem(): Remueve y retorna un par (clave, valor) aleatorio del diccionario como una tupla.
+
+dict.setdefault(key, default=None): Retorna el valor asociado con la clave dada. Si la clave no está en el diccionario, la inserta con el valor predeterminado especificado (por defecto, None) y retorna el valor predeterminado.
+
+dict.update(other): Actualiza el diccionario con elementos del otro diccionario o de una iterable de pares clave-valor.
+
+dict.clear(): Remueve todos los elementos del diccionario.
+
+len(dict): Retorna el número de elementos en el diccionario.

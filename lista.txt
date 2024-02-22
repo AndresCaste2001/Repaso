@@ -1,0 +1,23 @@
+len(list): Retorna el número de elementos en la lista.
+
+list.append(element): Agrega un elemento al final de la lista.
+
+list.extend(iterable): Extiende la lista agregando todos los elementos del iterable al final.
+
+list.insert(index, element): Inserta un elemento en la posición dada por el índice.
+
+list.remove(element): Remueve la primera aparición del elemento especificado de la lista.
+
+list.pop(index=-1): Remueve y retorna el elemento en la posición dada por el índice. Si no se especifica un índice, remueve y retorna el último elemento.
+
+list.index(element, start=0, end=len(list)): Retorna el índice de la primera aparición del elemento especificado dentro de los límites de inicio y fin dados.
+
+list.count(element): Retorna el número de veces que el elemento especificado aparece en la lista.
+
+list.sort(key=None, reverse=False): Ordena los elementos de la lista en su lugar. Puede tomar argumentos opcionales key para especificar una función de orden personalizada y reverse para ordenar en orden descendente.
+
+list.reverse(): Invierte el orden de los elementos en la lista.
+
+list.copy(): Retorna una copia superficial de la lista.
+
+list.clear(): Remueve todos los elementos de la lista.

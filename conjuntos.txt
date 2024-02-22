@@ -1,0 +1,39 @@
+en(set): Retorna el número de elementos en el conjunto.
+
+set.add(element): Agrega un elemento al conjunto. Si el elemento ya está presente, no hace nada.
+
+set.update(iterable): Agrega elementos del iterable al conjunto.
+
+set.remove(element): Remueve el elemento especificado del conjunto. Si el elemento no está presente, lanza un error.
+
+set.discard(element): Remueve el elemento especificado del conjunto si está presente. Si el elemento no está presente, no hace nada.
+
+set.pop(): Remueve y retorna un elemento aleatorio del conjunto. Si el conjunto está vacío, lanza un error.
+
+set.clear(): Remueve todos los elementos del conjunto, dejándolo vacío.
+
+set.copy(): Retorna una copia superficial del conjunto.
+
+set.union(other_set): Retorna un nuevo conjunto que contiene todos los elementos que están en el conjunto y/o en el otro conjunto.
+
+set.intersection(other_set): Retorna un nuevo conjunto que contiene todos los elementos que están en ambos conjuntos.
+
+set.difference(other_set): Retorna un nuevo conjunto que contiene todos los elementos que están en el conjunto pero no en el otro conjunto.
+
+set.symmetric_difference(other_set): Retorna un nuevo conjunto que contiene todos los elementos que están en uno de los conjuntos, pero no en ambos.
+
+set.issubset(other_set): Retorna True si todos los elementos del conjunto están presentes en el otro conjunto.
+
+set.issuperset(other_set): Retorna True si todos los elementos del otro conjunto están presentes en el conjunto.
+
+set.isdisjoint(other_set): Retorna True si el conjunto y el otro conjunto no tienen elementos en común.
+
+# Declaración de un conjunto vacío
+conjunto_vacio = set()
+
+# Declaración de un conjunto con elementos
+mi_conjunto = {1, 2, 3, 4, 5}
+
+# También puedes crear un conjunto a partir de una lista
+lista = [1, 2, 3, 4, 5]
+conjunto_desde_lista = set(lista)
